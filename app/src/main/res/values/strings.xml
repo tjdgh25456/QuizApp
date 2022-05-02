@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyQuizApp</string>
+    <string name="falg_name">어느 나라 국기 인가요?</string>
+    <string name="start_btn">시작하기</string>
 </resources>

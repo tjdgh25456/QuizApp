@@ -12,7 +12,7 @@ object Constants {
 
         // 1
         val que1 = Question(
-            1, "What country does this flag belong to?",
+            1, "어느 나라 국기인가요?",
             R.drawable.ic_flag_of_argentina,
             "Argentina", "Austrialia",
             "Armenia", "Austria",
@@ -24,7 +24,7 @@ object Constants {
 
         //2
         val que2 = Question(
-            2, "What country does this flag belong to?",
+            2, "어느 나라 국기인가요?",
             R.drawable.ic_flag_of_australia,
             "australila", "auostralia",
             "australia", "australilia",
@@ -34,7 +34,7 @@ object Constants {
 
         //3
         val que3 = Question(
-            3, "What country does this flag belong to?",
+            3, "어느 나라 국기인가요?",
             R.drawable.ic_flag_of_belgium,
             "belgium", "Austrialia",
             "belgiumum", "belkium",
@@ -44,7 +44,7 @@ object Constants {
 
         // 4
         val que4 = Question(
-            4, "What country does this flag belong to?",
+            4, "어느 나라 국기인가요?",
             R.drawable.ic_flag_of_brazil,
             "Abrazil", "brazilia",
             "brazil", "barazil",
@@ -56,7 +56,7 @@ object Constants {
 
         //5
         val que5 = Question(
-            5, "What country does this flag belong to?",
+            5, "어느 나라 국기인가요?",
             R.drawable.ic_flag_of_denmark,
             "denmark3", "benmark",
             "denmarking", "denmark",
@@ -68,7 +68,7 @@ object Constants {
 
         //6
         val que6 = Question(
-            6, "What country does this flag belong to?",
+            6, "어느 나라 국기인가요?",
             R.drawable.ic_flag_of_fiji,
             "easy", "fiji",
             "filji", "tiji",
@@ -80,7 +80,7 @@ object Constants {
 
         //7
         val que7 = Question(
-            7, "What country does this flag belong to?",
+            7, "어느 나라 국기인가요?",
             R.drawable.ic_flag_of_germany,
             "germany", "gervery",
             "gelmany", "zermany",
@@ -92,7 +92,7 @@ object Constants {
 
         //8
         val que8 = Question(
-            8, "What country does this flag belong to?",
+            8, "어느 나라 국기인가요?",
             R.drawable.ic_flag_of_india,
             "indigo", "indian",
             "indiana", "india",
@@ -104,7 +104,7 @@ object Constants {
 
         //9
         val que9 = Question(
-            9, "What country does this flag belong to?",
+            9, "어느 나라 국기 인가요?",
             R.drawable.ic_flag_of_kuwait,
             "kungwait", "kuguwait",
             "kuwait", "kuwaite",
@@ -116,7 +116,7 @@ object Constants {
 
 
         val que10 = Question(
-            10, "What country does this flag belong to?",
+            10, "어느 나라 국기인가요?",
             R.drawable.ic_flag_of_new_zealand,
             "now_zealand", "new_gealand",
             "no_zealand", "new_zealand",

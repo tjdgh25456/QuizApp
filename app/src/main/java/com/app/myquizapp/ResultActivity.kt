@@ -17,11 +17,12 @@ class ResultActivity : AppCompatActivity() {
 
         tvName.text = intent.getStringExtra(Constants.USER_NAME)
 
+        val tvNameResult = intent.getStringExtra(Constants.USER_NAME)
         val totalQuestions = intent.getIntExtra(Constants.TOTAL_QUESTIONS, 0)
         val correctedAnswer = intent.getIntExtra(Constants.CORRECT_ANSWERS, 0)
 
 
-        tvScore.text = "your Score is $correctedAnswer out of $totalQuestions"
+        tvScore.text = "$tvNameResult 님이 맞춘 문제는 $totalQuestions 중 $correctedAnswer 개 입니다."
 
         btnFinish.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))

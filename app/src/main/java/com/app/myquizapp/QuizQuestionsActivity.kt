@@ -81,7 +81,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         if (mCurrentPosition == mQuestionsList!!.size) {
             btnSubmit?.text = "FINISH"
         } else {
-            btnSubmit?.text = "SUBMIT"
+            btnSubmit?.text = "제출하기"
         }
 
     }
@@ -179,7 +179,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                     if (mCurrentPosition == mQuestionsList!!.size) {
                         btnSubmit?.text = "FINISH"
                     } else {
-                        btnSubmit?.text = "GO TO NEXT QUESTION"
+                        btnSubmit?.text = "정답이 확실해요? 넘어갈까요?"
                     }
 
                     mSelectedOptionPosition = 0
